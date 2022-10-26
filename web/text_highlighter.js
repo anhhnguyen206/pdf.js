@@ -248,6 +248,8 @@ class TextHighlighter {
       }
       prevEnd = end;
 
+      console.log(selectedLeft);
+
       if (isSelected) {
         // Attempt to scroll the selected match into view.
         findController.scrollMatchIntoView({

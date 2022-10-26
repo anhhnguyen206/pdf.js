@@ -442,6 +442,7 @@ class PDFFindController {
     pageIndex = -1,
     matchIndex = -1,
   }) {
+    console.log(element, selectedLeft, pageIndex, matchIndex);
     if (!this._scrollMatches || !element) {
       return;
     } else if (matchIndex === -1 || matchIndex !== this._selected.matchIdx) {
